@@ -1,0 +1,2 @@
+﻿------------ | ------------- 
+ ![大鱼叔叔](https://raw.githubusercontent.com/HuangDayu/huangdayu.github.io/master/assets/private/images/huangdayu/huangdayu.jpg){:height="351.5px" width="200px" background-color="#FFFFFF"} | `真实姓名` ： 黄大宇<br/>`出生年月` ： 199507<br/>`GitHub` ： [huangdayu](https://github.com/HuangDayu){:target="_blank"}<br/>`个人博客` ： [huangdayu.cn](https://www.huangdayu.cn){:target="_blank"}<br/>`联系邮箱` ： huangdayuemail(at)gmail.com<br/>`工作年限` ： 201802 - 至今 <br/>`期望职位` ： Java开发工程师<br/>`期望城市` ：广州<br/>

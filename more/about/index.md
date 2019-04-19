@@ -1,0 +1,58 @@
+---
+title: 关于
+layout: page
+---
+
+
+<img style="margin-top:10px;width:200px;height:200px;border-radius:200px;" src="https://raw.githubusercontent.com/HuangDayu/huangdayu.github.io/master/assets/private/images/huangdayu/huangdayu.jpeg"/>
+
+# 关于博主
+---
+
+&emsp;&emsp;网名**大鱼叔叔**，也是笔名，本名**黄大宇**，祖籍姓唐。  
+&emsp;&emsp;大鱼是大宇的近音，小学同学起的外号，因为少白头，所以就自称大鱼叔叔了。  
+&emsp;&emsp;给自己起个名字，**唐战**，立意是崇尚以战斗，斗争的方式解决问题。  
+&emsp;&emsp;旧座右铭是：**信心是成功的第一步！**，6年级，面临小升初，为了激励自己。  
+&emsp;&emsp;新座右铭是：**行动是想法的最好表达！**  ，大一，有很多想法，反感成功学，为了指引自己。  
+&emsp;&emsp;人生格言：**不要死于一事无成！**，激励自己这一生要做有意义的，能创造价值的事，为了鞭策自己。  
+&emsp;&emsp;我是**爱码仕**，**Java后端工程师**，正在向架构师进发的路上，之前想着学大数据，中途废了。  
+
+# 开源数据
+---
+
+&emsp;&emsp;[Profile summary for GitHub](https://profile-summary-for-github.com/user/huangdayu){:target="_blank"}。  
+&emsp;&emsp;[Git memory for GitHub](https://www.gitmemory.com/HuangDayu){:target="_blank"}。      
+
+
+# 联系方式
+---
+
+&emsp;&emsp;**huangdayuemail(at)gmail.com**   
+&emsp;&emsp;或者   
+&emsp;&emsp;**huangdayuemail(at)qq.com**    
+
+# 关于博客
+
+---
+
+&emsp;&emsp;本博客搭建于2018年10月01日国庆期间。  
+&emsp;&emsp;写博客主要是为了学习、讨论、记录、积累、巩固、思考、感悟、整理、总结、分享。  
+&emsp;&emsp;也将之前的云笔记迁移了进来，包括一些自己觉得可以共勉的话和一些自己写的文章。  
+&emsp;&emsp;偶尔也记录一下学习 ，工作，生活。  
+&emsp;&emsp;会保持博客的更新，以技术文，记叙文和论文为主，追求深度与广度。  
+&emsp;&emsp;写博客不是为了传道授业解惑，更不是为了所谓流量变现，统计访客数据只是为了内心的小小喜悦感。  
+&emsp;&emsp;可能有些文章是参考网文而来，如有侵犯，立即联系，有些文章质量没有保证，如有纰漏，还请指正。  
+&emsp;&emsp;欢迎您访问大鱼叔叔的个人博客，欢迎交流，非常谢谢。  
+
+
+# 特别声明
+---
+
+&emsp;&emsp;本博客归大鱼叔叔版权所有，并保留所有权利。  
+&emsp;&emsp;本博客全部文字在[署名-非商业性使用-相同方式共享协议 3.0（BY-NC-SA）](https://creativecommons.org/licenses/by-nc-sa/3.0/cn/){:target="_blank"}之条款下提供。  
+&emsp;&emsp;本博客遵守中华人民共和国法律，备案号[粤ICP备18019530号-2](http://www.miitbeian.gov.cn){:target="_blank"}。  
+
+<div style="text-align: center;">
+	<iframe name="iFrame" width="100%" height="100%" src="https://www.huangdayu.cn/assets/private/htmls/huangdayu_gam.html" marginheight="0px" marginwidth="0px" frameborder="0px" border="0px" scrolling="no" alt="网络社交" align="middle">
+	</iframe>
+</div>

@@ -1,0 +1,19 @@
+<script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+<div class="copyright">
+  {% assign current = site.time | date: '%Y' %}
+  {% assign since = site.since | downcase %}
+  <span>
+    <i class="fa fa-copyright">{% if site.since and since != current %} {{ since }} - {% endif %} {{ current }}</i>&nbsp;
+    <i class="fa fa-user"><a href="/about" rel="nofollow">{{ site.author }}</a></i>&nbsp;
+    <i class="fa fa-address-card"><a href="http://www.miitbeian.gov.cn/" target="_blank" rel="nofollow">粤ICP备18019530号-2</a></i>&nbsp;
+    <i class="fa fa-rocket"><a class="theme-link" href="https://jekyllrb.com" target="_blank" rel="nofollow">Jekyll</a></i>&nbsp;
+    <i class="fa fa-paint-brush"><a class="theme-link" href="https://github.com/simpleyyt/jekyll-theme-next" target="_blank"
+        rel="nofollow">NexT</a></i>&nbsp;
+    <i class="fa fa-cc"><a class="theme-link" href="https://creativecommons.org/licenses/by-nc-sa/3.0/cn/" target="_blank"
+        rel="nofollow">BY-NC-SA</a></i>&nbsp;
+    <i class="fa fa-user-o"><span id="busuanzi_container_site_uv"><span id="busuanzi_value_site_uv"></span></span></i>&nbsp;
+    <i class="fa fa-eye"><span id="busuanzi_container_site_pv"><span id="busuanzi_value_site_pv"></span></span></i>&nbsp;
+    <i class="fa fa-file-o"><span id="busuanzi_container_page_pv"><span id="busuanzi_value_page_pv"></span></span></i>
+  </span>
+</div>

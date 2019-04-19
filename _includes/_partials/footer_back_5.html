@@ -1,0 +1,226 @@
+<script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+<div class="copyright">
+  <div>
+    <span id="busuanzi_container_site_uv">本站总访客数&nbsp;&nbsp;<span id="busuanzi_value_site_uv" class="blink"></span>&nbsp;&nbsp;人</span>
+    <span class="with-love"> <i class="fa fa-{{ site.authoricon }}"></i> </span>
+    <span id="busuanzi_container_site_pv">本站总访问量&nbsp;&nbsp;<span id="busuanzi_value_site_pv" class="blink"></span>&nbsp;&nbsp;次</span>
+    <span class="with-love"> <i class="fa fa-{{ site.authoricon }}"></i> </span>
+    <span id="busuanzi_container_page_pv">本文总阅读量&nbsp;&nbsp;<span id="busuanzi_value_page_pv" class="blink"></span>&nbsp;&nbsp;次</span>
+  </div>
+
+  <div>
+    字体遵循 <a class="theme-link" href="http://scripts.sil.org/OFL" target="_blank" rel="nofollow">SIL OFL 1.1</a>协议
+    <span class="with-love"> <i class="fa fa-{{ site.authoricon }}"></i> </span>
+    代码遵循 <a class="theme-link" href="http://opensource.org/licenses/mit-license.html" target="_blank" rel="nofollow">MIT</a>协议
+    <span class="with-love"> <i class="fa fa-{{ site.authoricon }}"></i> </span>
+    文档遵循 <a class="theme-link" href="https://creativecommons.org/licenses/by-nc-sa/3.0/cn/" target="_blank" rel="nofollow">CC
+      BY-NC-SA 3.0
+      CN</a>协议
+  </div>
+
+  <div>
+    由 <a class="theme-link" class="theme-link" href="https://jekyllrb.com" target="_blank" rel="nofollow">Jekyll</a>
+    强力驱动
+    <span class="with-love"> <i class="fa fa-{{ site.authoricon }}"></i> </span>
+    主题是<a class="theme-link" class="theme-link" href="https://github.com/simpleyyt/jekyll-theme-next" target="_blank"
+      rel="nofollow">NexT.Muse</a>
+    <span class="with-love"> <i class="fa fa-{{ site.authoricon }}"></i> </span>
+    托管于<a class="theme-link" href="https://github.com/HuangDayu/huangdayu.github.io" target="_blank" rel="nofollow">GitHub</a>
+    <span class="with-love"> <i class="fa fa-{{ site.authoricon }}"></i> </span>
+    统计用<a class="theme-link" href="https://tongji.baidu.com" target="_blank" rel="nofollow">百度统计</a>
+    <span class="with-love"> <i class="fa fa-{{ site.authoricon }}"></i> </span>
+    <a class="theme-link" href="https://busuanzi.ibruce.info/" target="_blank" rel="nofollow">不蒜子</a>
+  </div>
+
+  <div>
+    Copyright &copy; 2018
+    <span class="with-love"> <i class="fa fa-{{ site.authoricon }}"></i> </span>
+    <a class="theme-link" href="/about" rel="nofollow">大鱼叔叔</a>
+    <span class="with-love"> <i class="fa fa-{{ site.authoricon }}"></i> </span>
+    <a class="theme-link" href="http://www.miitbeian.gov.cn/" target="_blank" rel="nofollow">粤ICP备18019530号-2</a>
+    <span class="with-love"> <i class="fa fa-{{ site.authoricon }}"></i> </span>
+    <span id="beijing_time"></span>
+  </div>
+</div>
+
+
+<style type="text/css">
+
+  /*http://www.fly63.com/article/detial/616*/
+  /* 定义keyframe动画，命名为blink */
+  @keyframes blink {
+    0% {
+      opacity: 1;
+    }
+
+    100% {
+      opacity: 0;
+    }
+  }
+
+  /* 添加兼容性前缀 */
+  @-webkit-keyframes blink {
+    0% {
+      opacity: 1;
+    }
+
+    100% {
+      opacity: 0;
+    }
+  }
+
+  @-moz-keyframes blink {
+    0% {
+      opacity: 1;
+    }
+
+    100% {
+      opacity: 0;
+    }
+  }
+
+  @-ms-keyframes blink {
+    0% {
+      opacity: 1;
+    }
+
+    100% {
+      opacity: 0;
+    }
+  }
+
+  @-o-keyframes blink {
+    0% {
+      opacity: 1;
+    }
+
+    100% {
+      opacity: 0;
+    }
+  }
+
+  /* 定义blink类*/
+  .blink {
+    color: #000000;
+    font-weight: bold;
+    animation: blink 1s linear infinite;
+    /* 其它浏览器兼容性前缀 */
+    -webkit-animation: blink 1s linear infinite;
+    -moz-animation: blink 1s linear infinite;
+    -ms-animation: blink 1s linear infinite;
+    -o-animation: blink 1s linear infinite;
+  }
+
+  .box {
+    /*font-size: 20px;*/
+    color: #4cc134;
+    margin: 10px;
+    animation: changeshadow 1s ease-in infinite;
+    /* 其它浏览器兼容性前缀 */
+    -webkit-animation: changeshadow 1s linear infinite;
+    -moz-animation: changeshadow 1s linear infinite;
+    -ms-animation: changeshadow 1s linear infinite;
+    -o-animation: changeshadow 1s linear infinite;
+  }
+
+  @keyframes changeshadow {
+
+    0% {
+      text-shadow: 0 0 4px #4cc134
+    }
+
+    50% {
+      text-shadow: 0 0 40px #4cc134
+    }
+
+    100% {
+      text-shadow: 0 0 4px #4cc134
+    }
+  }
+
+  /* 添加兼容性前缀 */
+  @-webkit-keyframes changeshadow {
+    0% {
+      text-shadow: 0 0 4px #4cc134
+    }
+
+    50% {
+      text-shadow: 0 0 40px #4cc134
+    }
+
+    100% {
+      text-shadow: 0 0 4px #4cc134
+    }
+  }
+
+  @-moz-keyframes changeshadow {
+    0% {
+      text-shadow: 0 0 4px #4cc134
+    }
+
+    50% {
+      text-shadow: 0 0 40px #4cc134
+    }
+
+    100% {
+      text-shadow: 0 0 4px #4cc134
+    }
+  }
+
+  @-ms-keyframes changeshadow {
+    0% {
+      text-shadow: 0 0 4px #4cc134
+    }
+
+    50% {
+      text-shadow: 0 0 40px #4cc134
+    }
+
+    100% {
+      text-shadow: 0 0 4px #4cc134
+    }
+  }
+
+  @-o-keyframes changeshadow {
+    0% {
+      text-shadow: 0 0 4px #4cc134
+    }
+
+    50% {
+      text-shadow: 0 0 40px #4cc134
+    }
+
+    100% {
+      text-shadow: 0 0 4px #4cc134
+    }
+  }
+</style>
+<script type="text/javascript">
+  //获取当天日期
+  function date() {
+    var date = new Date();
+    var year = date.getFullYear();
+    var month = date.getMonth() + 1;
+    var day = date.getDate();
+    var hour = "00" + date.getHours();
+    hour = hour.substr(hour.length - 2);
+    var minute = "00" + date.getMinutes();
+    minute = minute.substr(minute.length - 2);
+    var second = "00" + date.getSeconds();
+    second = second.substr(second.length - 2);
+    var week = date.getDay();
+    switch (week) {
+      case 1: week = "星期一 "; break;
+      case 2: week = "星期二 "; break;
+      case 3: week = "星期三 "; break;
+      case 4: week = "星期四 "; break;
+      case 5: week = "星期五 "; break;
+      case 6: week = "星期六 "; break;
+      case 0: week = "星期日 "; break;
+      default: week = ""; break;
+    }
+    document.getElementById("beijing_time").innerHTML = year + "年" + month + "月" + day + "日" + " " + hour + ":" + minute + ":" + second + " " + week;
+  }
+  setInterval("date()", 1000);
+</script>

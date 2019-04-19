@@ -1,0 +1,56 @@
+<!-- <p id="jinrishici-sentence">正在加载今日诗词....</p> -->
+<!-- <p class="jinrishici-class" id="jinrishici-id">正在加载今日诗词....</p> -->
+<!-- 
+<blockquote id="jinrishici" class="jinrishici">
+  <h3 align="center" id="jinrishici-content" >今日诗词</h3>
+  <h5 align="right" id="jinrishici-author">作者信息</h5>
+</blockquote> 
+-->
+<div id="jrsc" class="jrsc">
+  <h3 align="center" id="jrsc-content" >今日诗词</h3>
+  <h5 align="right" id="jrsc-author">作者信息</h5>
+</div>
+
+<style type="text/css">
+  #jrsc-content,#jrsc-author{
+    font-family: KaiTi, 'Segoe UI', 'Lucida Grande', Helvetica, Arial, 'Microsoft YaHei', FreeSans, Arimo, 'Droid Sans','wenquanyi micro hei','Hiragino Sans GB', 'Hiragino Sans GB W3', sans-serif;
+  }
+  .jrsc {
+      margin-left: 10%;
+      margin-right: 10%;
+  }
+</style>
+
+<!-- 今日诗词 文档https://www.jinrishici.com/doc/#return-->
+<script src="https://sdk.jinrishici.com/v2/browser/jinrishici.js" charset="utf-8"></script>
+<script type="text/javascript">
+  jinrishici.load(function(result) {
+    // 自己的处理逻辑
+    console.log(result)
+    var content = result.data.content;
+    var author = result.data.origin.author;
+    var dynasty = result.data.origin.dynasty;
+    var title = result.data.origin.title
+    var jrscStr = content + " —— " + "["+dynasty+"]"+ author + "《"+title+"》";
+    console.log(jrscStr)
+    // document.getElementById('jinrishici-id').innerText = jrscStr;
+    if(null == content || null == jrscStr){
+        document.getElementById('jrsc').style.visibility="hidden";//隐藏
+    }else{
+      　document.getElementById('jrsc').style.visibility="visible";//显示
+        document.getElementById('jrsc-content').innerText = content;
+        document.getElementById('jrsc-author').innerText = "["+dynasty+"]"+ author + "《"+title+"》";
+    }
+    
+    // $("#jinrishici").html('jrscStr');
+
+    // var jrsc = document.getElementById('jinrishici');
+    // jrsc.value = jrscStr;
+
+    // var s =document.getElementsByName("jinrishici-class");
+    // for(var i=0;i<s.length;i++)  {
+    //     s[i].value=jrscStr;
+    // }
+
+});
+</script>
