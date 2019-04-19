@@ -12,6 +12,28 @@ layout: page
 
     <div class="entry">
       <div class="title">
+        <h3>04-19</h3>
+        <p>博客重置</p>
+      </div>
+      <div class="body">
+        <p>清空了博客的1168条commit记录。</p>
+        <span>因为大多数提交都是不必要的，版本控制意义也不大。</span>
+      </div>
+    </div>
+
+    <div class="entry">
+      <div class="title">
+        <h3>04-17</h3>
+        <p>人情世故</p>
+      </div>
+      <div class="body">
+        <p>在没有足够的物质支持下，谁又能在这世俗的世界里独善其身呢！</p>
+        <span>在中国，大多数交际少不了酒，大多数交易也少不了酒。</span>
+      </div>
+    </div>
+
+    <div class="entry">
+      <div class="title">
         <h3>04-05</h3>
         <p>清明祭祀</p>
       </div>
