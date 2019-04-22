@@ -4,7 +4,7 @@ layout: page
 ---
 
 
-<img style="margin-top:10px;width:200px;height:200px;border-radius:200px;" src="https://raw.githubusercontent.com/HuangDayu/huangdayu.github.io/master/assets/private/images/huangdayu/huangdayu.jpeg"/>
+<img style="margin-top:10px;width:200px;height:200px;border-radius:200px;" src="/assets/private/icons/huangdayu.png"/>
 
 # 关于博主
 ---
