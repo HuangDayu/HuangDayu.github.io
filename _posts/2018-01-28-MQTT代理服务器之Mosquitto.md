@@ -1,11 +1,9 @@
 ---
-title: Mosquitto
-type: Mosquitto
+title: MQTT代理服务器之Mosquitto
 date: 2018-01-28 10:22:50
 category: 
 - 万物互联
 tags:
-- Mosquitto
 - MQTT
 ---
 

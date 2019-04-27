@@ -1,11 +1,9 @@
 ---
-title: ApacheApollo
-type: ApacheApollo
-date: 2018-01-15 20:22:22
+title: MQTT代理服务器之Apache Apollo
+date: 2017-08-19 20:22:22
 category: 
 - 万物互联
 tags:
-- Apache
 - MQTT
 ---
 

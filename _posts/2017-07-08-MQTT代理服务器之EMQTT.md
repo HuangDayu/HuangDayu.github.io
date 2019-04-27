@@ -1,14 +1,36 @@
 ---
-title: 通过API发送消息给EMQTT代理服务器
-type: Java
-date: 2017-08-19
+title: MQTT代理服务器之EMQTT
+date: 2017-07-08 16:27:29
 category: 
 - 万物互联
 tags:
-- HTTP
 - MQTT
-- EMQTT
 ---
+
+> [EMQTT](http://emqtt.com/) 是一个MQTT代理服务器
+
+### 下载编译之后的软件包
+```shell
+wget http://emqtt.com/static/brokers/emqttd-ubuntu16.04-v2.3.6.zip
+sudo unzip emqttd-ubuntu16.04-v2.3.6.zip
+```
+
+### 打开
+```shell
+./emqttd/bin/emqttd start
+```
+
+### 关闭
+```shell
+./emqttd/bin/emqttd stop
+```
+
+### 查询状态
+```shell
+./emqttd/bin/emqttd_ctl status
+```
+
+### 通过API发送消息给EMQTT代理服务器
 
 > Http Post To EMQTT 封装
 
