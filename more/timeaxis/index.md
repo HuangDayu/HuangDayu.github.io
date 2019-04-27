@@ -9,6 +9,17 @@ layout: page
 <!-- https://www.jianshu.com/p/c9c719821198 -->
 <!-- https://codepen.io/ksantangelo/pen/ZBOpoJ/ -->
   <div class="timeline">
+  
+	<div class="entry">
+      <div class="title">
+        <h3>04-27</h3>
+        <p>纠结病犯</p>
+      </div>
+      <div class="body">
+        <p>买个手机，买个鞋，能纠结死人...</p>
+        <span>谁不想果断啊，但是谁又不是身不由己！怪没钱，怪这怪那，最终还是怪到自己的头上...</span>
+      </div>
+    </div>
 
     <div class="entry">
       <div class="title">
