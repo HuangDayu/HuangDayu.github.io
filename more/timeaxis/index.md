@@ -9,20 +9,20 @@ layout: page
 <!-- https://www.jianshu.com/p/c9c719821198 -->
 <!-- https://codepen.io/ksantangelo/pen/ZBOpoJ/ -->
   <div class="timeline">
-  
-	<div class="entry">
 
-    <div class="title">
+    <div class="entry">
+      <div class="title">
         <h3>05-05</h3>
         <p>常常回家</p>
       </div>
       <div class="body">
-        <p>有时间还是多回一次家！</p>
-        <span>争取早日接父母到身边来。</span>
+          <p>有时间还是多回一次家！</p>
+          <span>争取早日接父母到身边来。</span>
       </div>
     </div>
-
-    <div class="title">
+  
+	  <div class="entry">
+      <div class="title">
         <h3>04-27</h3>
         <p>纠结病犯</p>
       </div>
