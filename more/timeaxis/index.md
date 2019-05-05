@@ -11,7 +11,18 @@ layout: page
   <div class="timeline">
   
 	<div class="entry">
-      <div class="title">
+
+    <div class="title">
+        <h3>05-05</h3>
+        <p>常常回家</p>
+      </div>
+      <div class="body">
+        <p>有时间还是多回一次家！</p>
+        <span>争取早日接父母到身边来。</span>
+      </div>
+    </div>
+
+    <div class="title">
         <h3>04-27</h3>
         <p>纠结病犯</p>
       </div>
@@ -173,6 +184,17 @@ layout: page
         <span>各种问题，各种矛盾...一封简历未投，十月已接近尾声了，我决定要逃离了，也许再也不回来了。再见，深圳！于广东省深圳市南山区大勘社康中心麒麟公寓B栋532房</span>
       </div>
     </div>
+
+    <div class="entry">
+      <div class="title">
+        <h3>10-07</h3>
+        <p>博客域名</p>
+      </div>
+      <div class="body">
+        <p>huangdayu.cn</p>
+        <span>选cn，是为表明我是中国人。之前买的zriot.xyz和yibuwulianwang.com都弃了。</span>
+      </div>
+    </div>
     
     <div class="entry">
       <div class="title">
@@ -180,7 +202,7 @@ layout: page
         <p>博客上线</p>
       </div>
       <div class="body">
-        <p>huangdayu.cn</p>
+        <p>大鱼叔叔的个人博客</p>
         <span>人生第一个正式博客上线了，普天同庆！</span>
       </div>
     </div>
