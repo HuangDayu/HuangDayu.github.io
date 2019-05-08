@@ -17,7 +17,7 @@ layout: page
       </div>
       <div class="body">
           <p><a href="https://www.v2ex.com/member/huangdayu">V2EX账号</a>被封了...就因为说了一句：<a href="https://www.v2ex.com/t/561180#r_7283335">“我也想体验体验独裁的感觉”</a></p>
-          <span>从被<a href="https://www.v2ex.com/api/members/show.json?username=huangdayu">降权</a>，到密码被重置，再到密码再次被重置，再找回密码之后，全部404了...这真的是独裁啊！虽然舍不得V友们，但是还是再见吧。</span>
+          <span>从被<a href="https://www.v2ex.com/api/members/show.json?username=huangdayu">降权</a>，到密码被重置，再到密码再次被重置，再找回密码之后，全部404了...这真的是独裁啊！虽然舍不得有趣的V友们，但是还是再见吧。</span>
       </div>
     </div>
 
