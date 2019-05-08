@@ -202,8 +202,8 @@ layout: page
         <p>博客域名</p>
       </div>
       <div class="body">
-        <p>huangdayu.cn</p>
-        <span>选cn，是为表明我是中国人。之前买的zriot.xyz和yibuwulianwang.com都弃了。</span>
+        <p><a href="huangdayu.cn">huangdayu.cn</a></p>
+        <span>选cn，是为表明我是中国人。之前买的<a href="zriot.xyz">zriot.xyz</a>和<a href="yibuwulianwang.com">yibuwulianwang.com</a>都弃了。</span>
       </div>
     </div>
     
