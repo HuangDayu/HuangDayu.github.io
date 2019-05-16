@@ -71,7 +71,7 @@ npm run dev
 ## 后台运行
 
 ```shell
-nohup npm run dev > 2019-05-16.log &
+nohup npm run dev > 2019-05-16.log 2>&1 &
 ```
 
 ## 问题一：无法访问
@@ -131,7 +131,7 @@ java -jar dubbo-admin-server/target/dubbo-admin-0.1.jar --server.port=8080
 ## 后台运行
 
 ```shell
-nohup java -jar dubbo-admin-server-0.1.jar --server.port=8080 > 2019-05-06.log &
+nohup java -jar dubbo-admin-server-0.1.jar --server.port=8080 > 2019-05-06.log 2>&1 &
 ```
 
 # 参考文献
