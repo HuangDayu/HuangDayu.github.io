@@ -61,6 +61,12 @@ npm run dev
 - test : 测试环境
 - prod ：正式黄金
 
+## 后台运行
+
+```shell
+nohup npm run dev > 2019-05-16.log &
+```
+
 ## 问题一：无法访问
 
 原因：  
@@ -112,7 +118,13 @@ mvn --projects dubbo-admin-server spring-boot:run
 ## 使用java运行jar
 
 ```shell
-nohup java -jar dubbo-admin-server/target/dubbo-admin-0.1.jar --server.port=8080
+java -jar dubbo-admin-server/target/dubbo-admin-0.1.jar --server.port=8080
+```
+
+## 后台运行
+
+```shell
+nohup java -jar dubbo-admin-server-0.1.jar --server.port=8080 > 2019-05-06.log &
 ```
 
 # 参考文献
