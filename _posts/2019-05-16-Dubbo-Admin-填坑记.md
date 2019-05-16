@@ -45,6 +45,13 @@ npm install -g vue-cli
 vue init webpack my-project
 ```
 
+## 进入文件夹
+
+```shell
+git clone https://github.com/apache/incubator-dubbo-admin.git
+cd ./incubator-dubbo-admin/dubbo-admin-ui
+```
+
 ## 安装WebPack项目
 
 ```shell
@@ -132,3 +139,4 @@ nohup java -jar dubbo-admin-server-0.1.jar --server.port=8080 > 2019-05-06.log &
 [关于webpack 'Invalid Host header' 错误](https://www.jianshu.com/p/111806476add)  
 [Webpack Quickstart](http://vuejs-templates.github.io/webpack/)  
 [Dubbo Admin 官方中文文档](https://github.com/apache/incubator-dubbo-admin/blob/develop/README_ZH.md)  
+[Vue.js 菜鸟教程](https://www.runoob.com/vue2/vue-install.html)  
