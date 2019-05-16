@@ -27,7 +27,7 @@ sudo yum install npm
 ```shell
 vim ~/.npmrc
 ```
-.npmrc文件可能不存在，可以直接用vim协议一下内容；  
+**注意：**`.npmrc`文件可能不存在，可以直接用vim协议一下内容；  
 
 ```shell
 registry=https://registry.npm.taobao.org
