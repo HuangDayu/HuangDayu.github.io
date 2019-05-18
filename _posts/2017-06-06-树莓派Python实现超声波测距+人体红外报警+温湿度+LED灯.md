@@ -11,7 +11,8 @@ photos:
 - https://raw.githubusercontent.com/HuangDayu/huangdayu.github.io/master/assets/private/images/image-32.jpg
 ---
 
-> 硬件模块
+# 硬件模块
+
 - Raspberry Pi 3
 - 超声波测距模块 HY-SRF05
 - 人体红外传感器模块 HC-SR501
@@ -20,28 +21,25 @@ photos:
 
 <!-- more -->
 
-> 编程语言
-- Python
-
-> HY-SRF05
+## HY-SRF05
 
 ![HY-SRF05](https://raw.githubusercontent.com/HuangDayu/huangdayu.github.io/master/assets/private/images/image-35.png)
 
-> HC-SR501
+## HC-SR501
 
 ![HC-SR501](https://raw.githubusercontent.com/HuangDayu/huangdayu.github.io/master/assets/private/images/image-33.png)
 ![HC-SR501](https://raw.githubusercontent.com/HuangDayu/huangdayu.github.io/master/assets/private/images/image-34.png)
 
-<!-- 内嵌标签 -->
-{% highlight python %}
-#! /usr/bin/python
-{% endhighlight %}
+# 编程语言
 
-{% highlight python linenos %}
-# -*- coding:utf-8 -*-
-{% endhighlight %}
+- Python  
+
+# 源码
 
 ```python
+#! /usr/bin/python
+# -*- coding:utf-8 -*-
+
 #热体红外+超声波测距+湿度温度#第一脚为VCC，由于该模块工作电压为5V，因此需接在树莓派GPIO的2号针上；
 #第二只脚为TRIG，输入触发信号#第三只脚为ECHO，输出回响信号#第四只脚为接地脚，接在树莓派GPIO的第6号针上。
 #第1、3只脚分别为GPIO2和GPIO3，分别作发送和接收用，分别于Trig和Echo相连接。
@@ -67,16 +65,16 @@ def get_dht11(dht11_pin):       
     time.sleep(0.02)    # 拉低20ms（延迟）        
     GPIO.output(dht11_pin,1)#输出高电平        
     GPIO.setup(dht11_pin,GPIO.IN)  # 这里需要拉高20-40us,但更改模式需要50us,因此不调用延时    
-    while not GPIO.input(dht11_pin):        # 检测返回信号 检测到启示信号的高电平结束        
+    while not GPIO.input(dht11_pin): # 检测返回信号 检测到启示信号的高电平结束        
           pass        
     
-    while GPIO.input(dht11_pin):             # 检测到启示信号的高电平则循环         
+    while GPIO.input(dht11_pin): # 检测到启示信号的高电平则循环         
           pass        
           
     i=40        
     
     while i:
-        start=time.time()*1000000                # 为了严格时序 循环开始便计时             
+        start=time.time()*1000000 # 为了严格时序 循环开始便计时             
         i-=1              
         while not GPIO.input(dht11_pin):
               pass                
@@ -84,27 +82,27 @@ def get_dht11(dht11_pin):       
               pass                
         
         buff=time.time()*1000000-start #为了严格时序 每次测得数据后都不马上处理 先存储
-        GPIO.setup(dht11_pin,GPIO.OUT)                # 读取结束 复位引脚
+        GPIO.setup(dht11_pin,GPIO.OUT) # 读取结束 复位引脚
         GPIO.output(dht11_pin,1)
         # print "buff - ",buff
         # 开始处理数据
-        for i in range(len(buff)):     # 将时间转换为 0 1
-                if buff>100:          # 上方测试时是测试整个位的时间
-                                      # 因此是与100比较 大于100为1(位周期中 低电平50us)
+        for i in range(len(buff)): # 将时间转换为 0 1
+                if buff>100: # 上方测试时是测试整个位的时间
+                             # 因此是与100比较 大于100为1(位周期中 低电平50us)
                         buff=1
                 else:
                         buff=0
         # print "After - ",buff
         i=40
         hum_int=0
-        while i>32:                                # 湿度整数部分
+        while i>32:  # 湿度整数部分
                 i-=1
                 hum_int<<=1
                 hum_int+=buff
         #print "湿度:",hum_int
         tmp_int=0
         i=24
-        while i>16:                                # 温度整数部分
+        while i>16: # 温度整数部分
                 i-=1
                 tmp_int<<=1
                 tmp_int+=buff
