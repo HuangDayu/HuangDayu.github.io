@@ -10,6 +10,17 @@ layout: page
 <!-- https://codepen.io/ksantangelo/pen/ZBOpoJ/ -->
   <div class="timeline">
 
+    <div class="entry">
+      <div class="title">
+        <h3>06-07</h3>
+        <p>端午安康</p>
+      </div>
+      <div class="body">
+          <p>端午快乐还是端午安康就不深究了，只是希望传统节日的精神和初衷始终影响着华夏大地。</p>
+          <span>最近忙于工作，博客都停更了一段时间了。祖传代码是真得不敢恭维啊！</span>
+      </div>
+    </div>
+
   	<div class="entry">
       <div class="title">
         <h3>05-08</h3>
