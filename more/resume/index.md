@@ -10,9 +10,9 @@ layout: page
 `出生年月` ： 199507  
 `GitHub` ： [huangdayu](https://github.com/HuangDayu){:target="_blank"}  
 `个人博客` ： [huangdayu.cn](https://www.huangdayu.cn){:target="_blank"}  
-`联系邮箱` ： huangdayuemail(at)gmail.com  
+`联系邮箱` ： huangdayuemail(at)gmail(dot)com  
 `工作年限` ： 201802 - 至今  
-`期望职位` ： Java开发工程师  
+`期望职位` ： Java攻城狮  
 `期望城市` ：一线城市   
 
 
