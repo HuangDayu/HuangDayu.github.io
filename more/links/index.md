@@ -26,6 +26,7 @@ layout: page
 	<a href="https://www.fangzhipeng.com/" target="_blank">方志朋的博客</a>
 	<a href="https://jimmysong.io/" target="_blank">宋净超的博客</a>
 	<a href="http://techblog.pub/" target="_blank">原创技术博客大联盟</a>
+	<a href="https://blog.52itstyle.vip/" target="_blank">柒's Blog</a>
 </div>
 
 <style type="text/css">
