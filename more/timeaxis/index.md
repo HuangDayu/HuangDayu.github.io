@@ -10,6 +10,18 @@ layout: page
 <!-- https://codepen.io/ksantangelo/pen/ZBOpoJ/ -->
   <div class="timeline">
 
+
+    <div class="entry">
+      <div class="title">
+        <h3>07-27</h3>
+        <p>最近很慌</p>
+      </div>
+      <div class="body">
+          <p>最近身体大不如前了。对突发疾病，如心梗，白血病都太敏感了。稍微有点不适就有点慌!</p>
+          <span>我选择了远方，却又做不到风雨兼程，哎!</span>
+      </div>
+    </div>
+
     <div class="entry">
       <div class="title">
         <h3>06-07</h3>
