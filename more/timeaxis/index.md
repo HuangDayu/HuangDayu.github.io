@@ -10,6 +10,16 @@ layout: page
 <!-- https://codepen.io/ksantangelo/pen/ZBOpoJ/ -->
   <div class="timeline">
 
+    <div class="entry">
+      <div class="title">
+        <h3>08-17</h3>
+        <p>生日快乐</p>
+      </div>
+      <div class="body">
+          <p>不觉间已24个年头了。</p>
+          <span>我的生日，从不搞聚会，开派对之类的活动，也许是性格使然。平平凡凡，两个鸡蛋，一顿家常菜就好。</span>
+      </div>
+    </div>
 
     <div class="entry">
       <div class="title">
@@ -21,7 +31,7 @@ layout: page
           <span>我选择了远方，却又做不到风雨兼程，哎!</span>
       </div>
     </div>
-
+    
     <div class="entry">
       <div class="title">
         <h3>06-07</h3>
@@ -54,8 +64,8 @@ layout: page
           <span>争取早日接父母到身边来。</span>
       </div>
     </div>
-  
-	<div class="entry">
+      
+    <div class="entry">
       <div class="title">
         <h3>04-27</h3>
         <p>纠结病犯</p>
@@ -65,7 +75,7 @@ layout: page
         <span>谁不想果断啊，但是谁又不是身不由己！怪没钱，怪这怪那，最终还是怪到自己的头上...</span>
       </div>
     </div>
-
+    
     <div class="entry">
       <div class="title">
         <h3>04-19</h3>
@@ -76,7 +86,7 @@ layout: page
         <span>因为大多数提交都是不必要的，版本控制意义也不大。从此可以看出，大半年的时间都花费在这个质量一般的博客上了...</span>
       </div>
     </div>
-
+    
     <div class="entry">
       <div class="title">
         <h3>04-17</h3>
@@ -87,7 +97,7 @@ layout: page
         <span>在中国，大多数交际少不了酒，大多数交易也少不了酒。</span>
       </div>
     </div>
-
+    
     <div class="entry">
       <div class="title">
         <h3>04-05</h3>
@@ -100,7 +110,7 @@ layout: page
         <span>黄氏派名：圣良万啟黄文世玉有芝大邦成家定国兴汉登朝尚开儒学立德安仁常赐福</span>
       </div>
     </div>
-
+    
     <div class="entry">
       <div class="title">
         <h3>04-01</h3>
@@ -111,7 +121,7 @@ layout: page
         <span>刚得到消息，大专生毕业后，工作两年，可以直接报考研究生。那就给自己定个目标吧，这可不是愚人节的彩蛋。</span>
       </div>
     </div>
-
+    
     <div class="entry">
       <div class="title">
         <h3>03-31</h3>
@@ -122,7 +132,7 @@ layout: page
         <span>希望自己做到。</span>
       </div>
     </div>
-
+    
     <div class="entry">
       <div class="title">
         <h3>03-29</h3>
@@ -133,7 +143,7 @@ layout: page
         <span>实很多都是前端基础问题，无奈自己太菜，连a标签背景都需要Google一下，对自己太绝望了。</span>
       </div>
     </div>
-
+    
     <div class="entry">
       <div class="title">
         <h3>03-20</h3>
@@ -177,7 +187,7 @@ layout: page
         <span>摸鱼已经半年时间了...本命年，愿一切顺利！</span>
       </div>
     </div>
-
+    
     <div class="entry">
       <div class="title">
         <h3>02-05</h3>
@@ -197,7 +207,7 @@ layout: page
          <h1>己亥猪年</h1>
       </div>
     </div>
-
+    
     <div class="entry">
       <div class="title">
         <h3>12-25</h3>
@@ -218,7 +228,7 @@ layout: page
         <span>各种问题，各种矛盾...一封简历未投，十月已接近尾声了，我决定要逃离了，也许再也不回来了。再见，深圳！于广东省深圳市南山区大勘社康中心麒麟公寓B栋532房</span>
       </div>
     </div>
-
+    
     <div class="entry">
       <div class="title">
         <h3>10-07</h3>
