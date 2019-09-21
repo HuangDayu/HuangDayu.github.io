@@ -12,6 +12,17 @@ layout: page
 
     <div class="entry">
       <div class="title">
+        <h3>09-21</h3>
+        <p>瑟瑟发抖</p>
+      </div>
+      <div class="body">
+          <p>近两个月，药不能停。不是这里痛，又是那里痛，不是胃炎，可能又是肝炎...</p>
+          <span>恐命不久矣。本命年不是徒有虚名啊！但愿健康快乐。</span>
+      </div>
+    </div>
+
+    <div class="entry">
+      <div class="title">
         <h3>08-17</h3>
         <p>生日快乐</p>
       </div>
