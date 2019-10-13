@@ -15,7 +15,7 @@ email: huangdayuemail(at)gmail.com
 # Support language: de, en, fr-FR, id, ja, ko, pt-BR, pt, ru, zh-Hans, zh-hk, zh-tw
 language: zh-Hans
 date_format: '%Y-%m-%d %H:%m:%S'
-timezone: Asia/Shanghai
+# timezone: Asia/Shanghai
 # %Y-%m-%d %H:%m:%S %z'
 
 # URL
