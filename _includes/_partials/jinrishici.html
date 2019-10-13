@@ -34,7 +34,7 @@
     var jrscStr = content + " —— " + "["+dynasty+"]"+ author + "《"+title+"》";
     console.log(jrscStr)
     // document.getElementById('jinrishici-id').innerText = jrscStr;
-    if(null == content || null == jrscStr){
+    if(null == content || null == jrscStr || '今日诗词' == content){
         document.getElementById('jrsc').style.visibility="hidden";//隐藏
     }else{
       　document.getElementById('jrsc').style.visibility="visible";//显示
