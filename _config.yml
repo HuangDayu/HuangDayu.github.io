@@ -6,12 +6,13 @@
 # Site
 # 一步物联网 颠覆您想象，给您新感觉！
 # 学习 讨论 记录 感悟 思考 反思 觉悟 分享
+# 学习 讨论 记录 积累 巩固 思考 感悟 整理 总结 分享
 title: 大鱼叔叔的个人博客
-subtitle: 学习 讨论 记录 积累 巩固 思考 感悟 整理 总结 分享
+subtitle: 行动是想法的最好表达。
 description: 不要死于一事无成！
 signature: 不要死于一事无成！
 author: 大鱼叔叔
-email: huangdayuemail(at)gmail.com
+email: huangdayuemail(at)gmail(dot)com
 # Support language: de, en, fr-FR, id, ja, ko, pt-BR, pt, ru, zh-Hans, zh-hk, zh-tw
 language: zh-Hans
 date_format: '%Y-%m-%d %H:%m:%S'
