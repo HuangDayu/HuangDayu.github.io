@@ -4,7 +4,7 @@ date: 2018-02-03 20:1:20
 category: 
 - 后端开发
 photos:
-- https://raw.githubusercontent.com/HuangDayu/huangdayu.github.io/master/assets/private/images/OAuth2.0/oauth0.png
+- https://www.huangdayu.cn/assets/private/images/OAuth2.0/oauth0.png
 tags: 
 - OAuth
 description: OAuth 2.0 Server Documentation
@@ -83,7 +83,7 @@ description: OAuth 2.0 Server Documentation
 
 ​        OAuth协议已定义了 4 种授权模式，其中最具代表性的就是授权码模式，这个在 3.1 小节中详细介绍，这里先以该模式来简单感受一下 OAuth2.0 的授权流程，授权流程图如下：
 
-![img](https://raw.githubusercontent.com/HuangDayu/huangdayu.github.io/master/assets/private/images/OAuth2.0/oauth1.png)
+![img](https://www.huangdayu.cn/assets/private/images/OAuth2.0/oauth1.png)
 
 假设整个流程开始之前，用户已经登录，那么整个授权流程如下：
 
@@ -107,7 +107,7 @@ description: OAuth 2.0 Server Documentation
 
 ​        授权码模式在整个授权流程上与  1.0 版本最贴近，但是整个流程还是要简化了许多，也是 OAuth2.0  中最标准，应用最广泛的授权模式。这类授权模式非常适合于具备服务端的应用，当然现在大多数 APP 都有自己的服务端，所以大部分 APP 的  OAuth 授权都可以采取授权码模式，下图为授权码各个角色之间的交互时序（这里让用户直接参与其中，省略了用户代理）：
 
-![img](https://raw.githubusercontent.com/HuangDayu/huangdayu.github.io/master/assets/private/images/OAuth2.0/oauth2.png)
+![img](https://www.huangdayu.cn/assets/private/images/OAuth2.0/oauth2.png)
 
 整个授权流程说明如下（具体参数释义见下文）：
 
@@ -288,9 +288,9 @@ Pragma: no-cache
 ---
 
 ### 3.1 使用postman请求accessToken（测试）
-![getAccessToken](https://raw.githubusercontent.com/HuangDayu/huangdayu.github.io/master/assets/private/images/OAuth2.0/oauth_getAccessToken.png)
+![getAccessToken](https://www.huangdayu.cn/assets/private/images/OAuth2.0/oauth_getAccessToken.png)
 ### 3.2 使用postman刷新accessToken（测试）
-![refreshToken](https://raw.githubusercontent.com/HuangDayu/huangdayu.github.io/master/assets/private/images/OAuth2.0/oauth_refreshToken.png)
+![refreshToken](https://www.huangdayu.cn/assets/private/images/OAuth2.0/oauth_refreshToken.png)
 ## 六. 本篇小结
 
 ---

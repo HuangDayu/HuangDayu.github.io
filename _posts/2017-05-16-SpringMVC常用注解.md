@@ -8,7 +8,7 @@ tags:
 - SpringMVC
 - Spring
 photos:
- - https://raw.githubusercontent.com/HuangDayu/huangdayu.github.io/master/assets/private/images/image-44.jpg
+ - https://www.huangdayu.cn/assets/private/images/image-44.jpg
 description: SpringMVC常用注解深入解释
 ---
 

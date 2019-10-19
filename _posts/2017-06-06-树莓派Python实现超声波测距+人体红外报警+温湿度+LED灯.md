@@ -8,7 +8,7 @@ tags:
  - Python
 date: 2017-06-06 22:40:30
 photos:
-- https://raw.githubusercontent.com/HuangDayu/huangdayu.github.io/master/assets/private/images/image-32.jpg
+- https://www.huangdayu.cn/assets/private/images/image-32.jpg
 ---
 
 # 硬件模块
@@ -23,12 +23,12 @@ photos:
 
 ## HY-SRF05
 
-![HY-SRF05](https://raw.githubusercontent.com/HuangDayu/huangdayu.github.io/master/assets/private/images/image-35.png)
+![HY-SRF05](https://www.huangdayu.cn/assets/private/images/image-35.png)
 
 ## HC-SR501
 
-![HC-SR501](https://raw.githubusercontent.com/HuangDayu/huangdayu.github.io/master/assets/private/images/image-33.png)
-![HC-SR501](https://raw.githubusercontent.com/HuangDayu/huangdayu.github.io/master/assets/private/images/image-34.png)
+![HC-SR501](https://www.huangdayu.cn/assets/private/images/image-33.png)
+![HC-SR501](https://www.huangdayu.cn/assets/private/images/image-34.png)
 
 # 编程语言
 

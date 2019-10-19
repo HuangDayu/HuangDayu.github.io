@@ -8,7 +8,7 @@ tags:
 - Ubuntu
 - CentOS
 description: MySQL 是一个开源的关系型数据库，可以选择分支版本Mariadb
-photos: https://raw.githubusercontent.com/HuangDayu/huangdayu.github.io/master/assets/private/images/image-41.jpeg
+photos: https://www.huangdayu.cn/assets/private/images/image-41.jpeg
 ---
 
 

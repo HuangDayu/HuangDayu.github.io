@@ -9,12 +9,12 @@ tags:
  - 语音交互
 date: 2017-11-07 01:47:30
 photos:
-- https://raw.githubusercontent.com/HuangDayu/huangdayu.github.io/master/assets/private/images/image-36.jpg
+- https://www.huangdayu.cn/assets/private/images/image-36.jpg
 ---
 
 > 2Mic麦克风阵列与4Mic麦克风阵列
 
-![HC-SR501](https://raw.githubusercontent.com/HuangDayu/huangdayu.github.io/master/assets/private/images/image-37.png)
+![HC-SR501](https://www.huangdayu.cn/assets/private/images/image-37.png)
 
 ## 使用本人修改的开源的SDK的教程
 

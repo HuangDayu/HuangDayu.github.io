@@ -6,7 +6,7 @@ category:
 tags: 
 - GitHub
 photos: 
-- https://raw.githubusercontent.com/HuangDayu/huangdayu.github.io/master/assets/private/images/image-50.png
+- https://www.huangdayu.cn/assets/private/images/image-50.png
 description: GitHub上优秀的Java知识点项目
 updated: 2018-10-14 16:45:15
 ---

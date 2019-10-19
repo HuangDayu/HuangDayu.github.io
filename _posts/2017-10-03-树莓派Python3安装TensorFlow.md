@@ -7,7 +7,7 @@ tags:
  - TensorFlow
  - Python3
 photos:
- - https://raw.githubusercontent.com/HuangDayu/huangdayu.github.io/master/assets/private/images/image-38.png
+ - https://www.huangdayu.cn/assets/private/images/image-38.png
 date: 2017-10-03 18:26:30
 ---
 
