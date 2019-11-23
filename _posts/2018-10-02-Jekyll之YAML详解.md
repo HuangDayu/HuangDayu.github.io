@@ -3,7 +3,7 @@ layout: post
 title: Jekyll之YAML详解
 date: 2018-10-02 22:22:22
 category: 
-- 关于博客
+- 前端开发
 tags:
 - Jekyll
 ---
