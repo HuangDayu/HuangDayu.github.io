@@ -3,6 +3,8 @@ title: 关于
 layout: page
 ---
 
+<h3 style="text-align: center;">生于忧患，死于安乐。</h3>
+
 
 <img style="margin-top:10px;width:200px;height:200px;border-radius:200px;" src="/assets/private/icons/huangdayu.png"/>
 

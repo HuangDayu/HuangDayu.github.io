@@ -3,6 +3,8 @@ title: 友链
 layout: page
 ---
 
+<h3 style="text-align: center;">有朋自来，不亦说乎。</h3>
+
 <div id="links">
 	<a href="http://leijun.blog.techweb.com.cn/" target="_blank">雷军</a>
 	<a href="http://mashibing.com/" target="_blank">马士兵</a>
@@ -11,22 +13,27 @@ layout: page
 	<a href="https://coolshell.cn/" target="_blank">左耳朵耗子</a>
 	<a href="https://jinnianshilongnian.iteye.com/" target="_blank">张开涛</a>
 	<a href="http://www.yinwang.org/" target="_blank">王垠</a>
+	<a href="https://vim.ink/" target="_blank">女程序员说</a>
 	<a href="http://jm.taobao.org/" target="_blank">阿里中间件团队</a>
 	<a href="http://blog.didispace.com/" target="_blank">程序员DD</a>
 	<a href="http://www.ityouknow.com/" target="_blank">纯洁的微笑</a>
-	<a href="http://xujin.org/" target="_blank">许进的博客</a>
-	<a href="http://itmuch.com/" target="_blank">周立的博客</a>
+	<a href="http://xujin.org/" target="_blank">许进</a>
+	<a href="http://itmuch.com/" target="_blank">周立</a>
 	<a href="https://www.javastack.cn/" target="_blank">Java技术栈</a>
 	<a href="https://crossoverjie.top/" target="_blank">crossoverJie</a>
-	<a href="https://vim.ink/" target="_blank">VIM教程网</a>
 	<a href="http://www.iocoder.cn" target="_blank">芋道源码</a>
 	<a href="https://www.cnblogs.com/CloudMan6/" target="_blank">CloudMan</a>
 	<a href="https://mercyblitz.github.io/" target="_blank">小马哥</a>
-	<a href="https://www.bysocket.com/" target="_blank">泥瓦匠BYSocket</a>
-	<a href="https://www.fangzhipeng.com/" target="_blank">方志朋的博客</a>
-	<a href="https://jimmysong.io/" target="_blank">宋净超的博客</a>
-	<a href="http://techblog.pub/" target="_blank">原创技术博客大联盟</a>
-	<a href="https://blog.52itstyle.vip/" target="_blank">柒's Blog</a>
+	<a href="https://www.bysocket.com/" target="_blank">泥瓦匠</a>
+	<a href="https://www.fangzhipeng.com/" target="_blank">方志朋</a>
+	<a href="https://jimmysong.io/" target="_blank">宋净超</a>
+	<a href="https://blog.52itstyle.vip/" target="_blank">小柒</a>
+	<a href="https://www.cnkirito.moe/" target="_blank">徐靖峰</a>
+	<a href="http://www.javaboy.org/" target="_blank">江南一点雨</a>
+	<a href="http://www.itwanger.com/" target="_blank">沉默王二</a>
+	<a href="http://cxytiandi.com/" target="_blank">猿天地</a>
+	<a href="http://www.gameboys.cn/" target="_blank">猿天地</a>
+	<a href="http://techblog.pub/" target="_blank">博客联盟</a>
 </div>
 
 <style type="text/css">

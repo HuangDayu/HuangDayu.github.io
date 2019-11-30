@@ -4,6 +4,9 @@ layout: page
 comments: false
 ---
 
+<h3 style="text-align: center;">诗词歌赋，吾之所爱。</h3>
+
+
 <blockquote id="jinrishici" class="blockquote-center">
 <h1 align="center" id="jinrishici-title" >诗名</h1>
 <h5 align="center" id="jinrishici-dynasty-author" >作者</h5>
