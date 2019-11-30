@@ -12,11 +12,22 @@ layout: page
 
     <div class="entry">
       <div class="title">
+        <h3>11-30</h3>
+        <p>我想发泄</p>
+      </div>
+      <div class="body">
+          <p>真的好压抑啊！我要亢奋，我要发泄！</p>
+          <span>我想来一次说走就走的旅行，一次疾风之行。将一切抛之脑后，让它们都见鬼去吧。</span>
+      </div>
+    </div>
+
+    <div class="entry">
+      <div class="title">
         <h3>09-21</h3>
         <p>瑟瑟发抖</p>
       </div>
       <div class="body">
-          <p>近两个月，药不能停。不是这里痛，又是那里痛，不是胃炎，可能又是肝炎...</p>
+          <p>近两个月，药不能停。不是这里痛，又是那里痛，不是胃炎，肠炎，可能又是肝炎...</p>
           <span>恐命不久矣。本命年不是徒有虚名啊！但愿健康快乐。</span>
       </div>
     </div>
