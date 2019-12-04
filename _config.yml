@@ -224,7 +224,9 @@ font:
   # 外链字体库地址，例如 //fonts.googleapis.com (默认值)
   # Uri of fonts host. E.g. //fonts.googleapis.com (Default)
   # //fonts.lug.ustc.edu.cn
-  host: //fonts.css.network
+  # https://www.zhihu.com/question/48303638
+  # fonts.css.network
+  host: //fonts.geekzu.org
 
   # 全局字体，应用在 body 元素上
   # Global font settings used on <body> element.
