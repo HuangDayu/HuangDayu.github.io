@@ -32,7 +32,7 @@ layout: page
 	<a href="http://www.javaboy.org/" target="_blank">江南一点雨</a>
 	<a href="http://www.itwanger.com/" target="_blank">沉默王二</a>
 	<a href="http://cxytiandi.com/" target="_blank">猿天地</a>
-	<a href="http://www.gameboys.cn/" target="_blank">猿天地</a>
+	<a href="http://www.gameboys.cn/" target="_blank">Java烂笔头</a>
 	<a href="http://techblog.pub/" target="_blank">博客联盟</a>
 </div>
 
