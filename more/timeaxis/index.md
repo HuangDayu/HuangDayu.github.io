@@ -12,6 +12,16 @@ layout: page
 
     <div class="entry">
       <div class="title">
+        <h3>12-25</h3>
+        <p>悼念祖父</p>
+      </div>
+      <div class="body">
+        <p>祖父仙逝11周年祭日，悼念。</p>
+      </div>
+    </div>
+
+    <div class="entry">
+      <div class="title">
         <h3>11-30</h3>
         <p>我想发泄</p>
       </div>
