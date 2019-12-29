@@ -5,7 +5,6 @@ category:
 - 后端开发
 tags:
 - Spring
-- Java
 ---
 
 spring-property.xml  
