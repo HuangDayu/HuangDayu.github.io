@@ -5,9 +5,15 @@ layout: page
 
 <div id="more">
   <a href="/more/about/"><i class="fa fa-fw fa-user"></i>关于</a>
+  <a href="/more/categories/"><i class="fa fa-fw fa-th"></i>分类</a>
+  <a href="/more/archives/"><i class="fa fa-fw fa-archive"></i>归档</a>
+  <a href="/more/tags/"><i class="fa fa-fw fa-tags"></i>标签</a>
   <a href="/more/timeaxis/"><i class="fa fa-fw fa-calendar-check-o"></i>时序</a>
   <!-- <a href="/more/resume/"><i class="fa fa-fw fa-address-card"></i>简历</a> -->
   <a href="/more/message/"><i class="fa fa-fw fa-envelope"></i>留言</a>
+  
+  
+  
   <a href="/more/poetry/"><i class="fa fa-fw fa-book"></i>诗词</a>
   <a href="/more/links/"><i class="fa fa-fw fa-link"></i>友链</a>
   <a href="/atom.xml" target="_blank"><i class="fa fa-fw fa-rss"></i>订阅</a>
