@@ -161,9 +161,10 @@ jinrishici: true
 # When running the site in a subdirectory (e.g. domain.tld/blog), remove the leading slash (/archives -> archives)
 menu:
   home: /
-  categories: /categories/
-  archives: /archives/
-  tags: /tags/
+  blog: /blog/
+  # categories: /categories/
+  # archives: /archives/
+  # tags: /tags/
   more: /more/
   # about: /about/
   # resume: /resume/
@@ -193,6 +194,7 @@ menu_icons:
   poetry: book
   links: link
   more: bookmark
+  blog: th-list
 
 
 
