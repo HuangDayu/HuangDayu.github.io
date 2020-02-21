@@ -11,12 +11,12 @@ title:
   poetry: 诗词
   links: 友链
   more: 更多
-  blog: 博客
+  microblog: 微博
 
 author: 博主
 
 menu:
-  home: 首页
+  home: 博客
   archives: 归档
   categories: 分类
   tags: 标签
@@ -29,7 +29,7 @@ menu:
   poetry: 诗词
   links: 友链
   more: 更多
-  blog: 博客
+  microblog: 微博
 
 sidebar:
   overview: 站点概览

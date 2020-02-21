@@ -161,7 +161,7 @@ jinrishici: true
 # When running the site in a subdirectory (e.g. domain.tld/blog), remove the leading slash (/archives -> archives)
 menu:
   home: /
-  blog: /blog/
+  microblog: /microblog/
   # categories: /categories/
   # archives: /archives/
   # tags: /tags/
@@ -182,7 +182,8 @@ menu:
 menu_icons:
   enable: true
   #KeyMapsToMenuItemKey: NameOfTheIconFromFontAwesome
-  home: home
+  #home: home
+  home: blog
   about: user
   categories: th
   schedule: calendar
@@ -194,7 +195,7 @@ menu_icons:
   poetry: book
   links: link
   more: bookmark
-  blog: th-list
+  microblog: microblog
 
 
 
