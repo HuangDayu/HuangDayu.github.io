@@ -814,8 +814,8 @@ vendors:
   ua_parser:
 
   # Internal version: 4.6.2
-  # See: http://fontawesome.io/
-  fontawesome: assets/fontawesome/5.12.1
+  # See: http://fontawesome.io/ assets/fontawesome/5.12.1
+  fontawesome:
 
   # Internal version: 1
   # https://www.algolia.com
