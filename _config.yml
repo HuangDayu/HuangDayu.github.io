@@ -183,7 +183,7 @@ menu_icons:
   enable: true
   #KeyMapsToMenuItemKey: NameOfTheIconFromFontAwesome
   #home: home
-  home: blog
+  home: bold
   about: user
   categories: th
   schedule: calendar
@@ -195,7 +195,7 @@ menu_icons:
   poetry: book
   links: link
   more: bookmark
-  microblog: microblog
+  microblog: weibo
 
 
 
