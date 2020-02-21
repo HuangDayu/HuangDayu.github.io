@@ -815,7 +815,7 @@ vendors:
 
   # Internal version: 4.6.2
   # See: http://fontawesome.io/
-  fontawesome: 5.12.0
+  fontawesome: assets/fontawesome/5.12.1
 
   # Internal version: 1
   # https://www.algolia.com
