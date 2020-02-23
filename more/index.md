@@ -13,9 +13,11 @@ layout: page
   <a href="/more/message/"><i class="fa fa-fw fa-envelope"></i>留言</a>
   <a href="/more/poetry/"><i class="fa fa-fw fa-book"></i>诗词</a>
   <a href="/more/links/"><i class="fa fa-fw fa-link"></i>友链</a>
+  <a href="/more/statistics/" target="_blank"><i class="fa fa-fw fa-line-chart"></i>统计</a>
   <a href="/atom.xml" target="_blank"><i class="fa fa-fw fa-rss"></i>订阅</a>
   <a href="https://github.com/huangdayu" target="_blank"><i class="fa fa-fw fa-github"></i>开源</a>
 </div>
+
 
 <style type="text/css">
 
