@@ -6,14 +6,14 @@ layout: page
 
 
 <div id="all-statistics">
-	<div>
+	<div style="width: auto;">
 		<!-- 百度统计 -->
-		<iframe src="https://tongji.baidu.com/web/welcome/ico?s=026d74a388da05f421833bd0de4537a3" frameborder="0" scrolling="yes" id="baidu-statistics" >
+		<iframe src="https://tongji.baidu.com/web/welcome/ico?s=026d74a388da05f421833bd0de4537a3" frameborder="0" scrolling="yes" id="baidu-statistics" width="100%">
 		</iframe>
 	</div>
-	<div>
+	<div style="width: auto;">
 		<!-- 站长统计 -->
-		<iframe src="http://new.cnzz.com/v1/login.php?siteid=1275893120" frameborder="0" scrolling="yes" id="cnzz-statistics">
+		<iframe src="http://new.cnzz.com/v1/login.php?siteid=1275893120" frameborder="0" scrolling="yes" id="cnzz-statistics" width="100%">
 		</iframe>
 	</div>
 </div>
@@ -22,11 +22,11 @@ layout: page
 <script type="text/javascript">
 	var ifm= document.getElementById("cnzz-statistics");
 	ifm.height=document.documentElement.clientHeight;
-	ifm.width=document.documentElement.clientWidth;
+	//ifm.width=document.documentElement.clientWidth;
 
 	var ifm2= document.getElementById("baidu-statistics");
 	ifm2.height=document.documentElement.clientHeight;
-	ifm2.width=document.documentElement.clientWidth;
+	//ifm2.width=document.documentElement.clientWidth;
 
 	// var ifmAll= document.getElementById("all-statistics");
 	// ifmAll.height=ifm2.height + ifm.height;
