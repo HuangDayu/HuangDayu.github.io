@@ -168,7 +168,7 @@ jinrishici: true
 
 # 禁止复制
 
-close_copy: false
+close_copy: true
 
 # ---------------------------------------------------------------
 # Menu Settings
