@@ -1,0 +1,170 @@
+<script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+<div class="copyright">
+  {% assign current = site.time | date: '%Y' %}
+  {% assign since = site.since | downcase %}
+  <span>
+    <i class="fa fa-copyright">{% if site.since and since != current %} {{ since }} - {% endif %} {{ current }}</i>&nbsp;
+    <i class="fa fa-user"><a href="/about" rel="nofollow">{{ site.author }}</a></i>&nbsp;
+    <i class="fa fa-address-card"><a href="http://www.miitbeian.gov.cn/" target="_blank" rel="nofollow">粤ICP备18019530号-2</a></i>&nbsp;
+    <i class="fa fa-cogs"><a class="theme-link" href="https://pages.github.com/" target="_blank" rel="nofollow">Pages</a></i>&nbsp;
+    <i class="fa fa-rocket"><a class="theme-link" href="https://jekyllrb.com" target="_blank" rel="nofollow">Jekyll</a></i>&nbsp;
+    <i class="fa fa-paint-brush"><a class="theme-link" href="https://github.com/simpleyyt/jekyll-theme-next" target="_blank" rel="nofollow">NexT</a></i>&nbsp;
+    <i class="fa fa-cc"><a class="theme-link" href="https://creativecommons.org/licenses/by-nc-sa/3.0/cn/" target="_blank" rel="nofollow">BY-NC-SA</a></i>&nbsp;
+    <span style="white-space:pre-wrap;">
+      <span  id="busuanzi_container_site_uv">访客数&nbsp;<span id="busuanzi_value_site_uv" class="blink"></span>&nbsp;人</span >&nbsp;<span  id="busuanzi_container_site_pv">访问量&nbsp;<span id="busuanzi_value_site_pv" class="blink"></span>&nbsp;次</span >&nbsp;<span  id="busuanzi_container_page_pv">阅读量&nbsp;<span id="busuanzi_value_page_pv" class="blink"></span>&nbsp;次</span>
+    </span>
+  </span>
+</div>
+
+<style type="text/css">
+
+  /*http://www.fly63.com/article/detial/616*/
+  /* 定义keyframe动画，命名为blink */
+  @keyframes blink {
+    0% {
+      opacity: 1;
+    }
+
+    100% {
+      opacity: 0;
+    }
+  }
+
+  /* 添加兼容性前缀 */
+  @-webkit-keyframes blink {
+    0% {
+      opacity: 1;
+    }
+
+    100% {
+      opacity: 0;
+    }
+  }
+
+  @-moz-keyframes blink {
+    0% {
+      opacity: 1;
+    }
+
+    100% {
+      opacity: 0;
+    }
+  }
+
+  @-ms-keyframes blink {
+    0% {
+      opacity: 1;
+    }
+
+    100% {
+      opacity: 0;
+    }
+  }
+
+  @-o-keyframes blink {
+    0% {
+      opacity: 1;
+    }
+
+    100% {
+      opacity: 0;
+    }
+  }
+
+  /* 定义blink类*/
+  .blink {
+    color: #000000;
+    font-weight: bold;
+    animation: blink 1s linear infinite;
+    /* 其它浏览器兼容性前缀 */
+    -webkit-animation: blink 1s linear infinite;
+    -moz-animation: blink 1s linear infinite;
+    -ms-animation: blink 1s linear infinite;
+    -o-animation: blink 1s linear infinite;
+  }
+
+  .box {
+    /*font-size: 20px;*/
+    color: #4cc134;
+    margin: 10px;
+    animation: changeshadow 1s ease-in infinite;
+    /* 其它浏览器兼容性前缀 */
+    -webkit-animation: changeshadow 1s linear infinite;
+    -moz-animation: changeshadow 1s linear infinite;
+    -ms-animation: changeshadow 1s linear infinite;
+    -o-animation: changeshadow 1s linear infinite;
+  }
+
+  @keyframes changeshadow {
+
+    0% {
+      text-shadow: 0 0 4px #4cc134
+    }
+
+    50% {
+      text-shadow: 0 0 40px #4cc134
+    }
+
+    100% {
+      text-shadow: 0 0 4px #4cc134
+    }
+  }
+
+  /* 添加兼容性前缀 */
+  @-webkit-keyframes changeshadow {
+    0% {
+      text-shadow: 0 0 4px #4cc134
+    }
+
+    50% {
+      text-shadow: 0 0 40px #4cc134
+    }
+
+    100% {
+      text-shadow: 0 0 4px #4cc134
+    }
+  }
+
+  @-moz-keyframes changeshadow {
+    0% {
+      text-shadow: 0 0 4px #4cc134
+    }
+
+    50% {
+      text-shadow: 0 0 40px #4cc134
+    }
+
+    100% {
+      text-shadow: 0 0 4px #4cc134
+    }
+  }
+
+  @-ms-keyframes changeshadow {
+    0% {
+      text-shadow: 0 0 4px #4cc134
+    }
+
+    50% {
+      text-shadow: 0 0 40px #4cc134
+    }
+
+    100% {
+      text-shadow: 0 0 4px #4cc134
+    }
+  }
+
+  @-o-keyframes changeshadow {
+    0% {
+      text-shadow: 0 0 4px #4cc134
+    }
+
+    50% {
+      text-shadow: 0 0 40px #4cc134
+    }
+
+    100% {
+      text-shadow: 0 0 4px #4cc134
+    }
+  }
+</style>

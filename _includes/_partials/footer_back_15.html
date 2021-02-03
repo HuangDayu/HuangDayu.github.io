@@ -1,0 +1,264 @@
+<script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+<div class="copyright">
+  {% assign current = site.time | date: '%Y' %}
+  {% assign since = site.since | downcase %}
+  <span>
+    <span>
+      <i class="fa fa-copyright">{% if site.since and since != current %} {{ since }} - {% endif %} {{ current }}</i>&nbsp;
+      <i class="fa fa-user"><a href="/about" rel="nofollow">{{ site.author }}</a></i>&nbsp;
+      <i class="fa fa-address-card"><a href="http://www.miitbeian.gov.cn/" target="_blank" rel="nofollow">粤ICP备18019530号-2</a></i>&nbsp;
+      <i class="fa fa-cogs"><a class="theme-link" href="https://pages.github.com/" target="_blank" rel="nofollow">Pages</a></i>&nbsp;
+      <i class="fa fa-rocket"><a class="theme-link" href="https://jekyllrb.com" target="_blank" rel="nofollow">Jekyll</a></i>&nbsp;
+      <i class="fa fa-paint-brush"><a class="theme-link" href="https://github.com/simpleyyt/jekyll-theme-next" target="_blank" rel="nofollow">NexT</a></i>&nbsp;
+      <i class="fa fa-creative-commons"><a class="theme-link" href="https://creativecommons.org/licenses/by-nc-sa/3.0/cn/" target="_blank" rel="nofollow">BY-NC-SA</a></i>&nbsp;
+    </span>
+    <span style="white-space:pre-wrap;">
+      <span class="fa fa-calendar"><span id="run_days" class="blink blink1"></span>DAY</span>&nbsp;<span  id="busuanzi_container_site_uv" class="fa fa-user-o"><span id="busuanzi_value_site_uv" class="blink blink2"></span>UV</span>&nbsp;<span  id="busuanzi_container_site_pv" class="fa fa-eye"><span id="busuanzi_value_site_pv" class="blink blink3"></span>PV</span>&nbsp;<span  id="busuanzi_container_page_pv" class="fa fa-file-o"><span id="busuanzi_value_page_pv" class="blink blink4"></span>VV</span>
+    </span>
+  </span>
+</div>
+
+<style type="text/css">
+
+/*http://www.fly63.com/article/detial/616*/
+/* 定义keyframe动画，命名为blink */
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+/* 添加兼容性前缀 */
+@-webkit-keyframes blink {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+@-moz-keyframes blink {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+@-ms-keyframes blink {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+@-o-keyframes blink {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+/* 定义blink类*/
+.blink1 {
+  color: #000000;
+  font-weight: bold;
+  animation: blink 1s linear infinite;
+  /* 其它浏览器兼容性前缀 */
+  -webkit-animation: blink 1s linear infinite;
+  -moz-animation: blink 1s linear infinite;
+  -ms-animation: blink 1s linear infinite;
+  -o-animation: blink 1s linear infinite;
+}
+
+
+.blink2 {
+  color: #000000;
+  font-weight: bold;
+  animation: blink 2s linear infinite;
+  /* 其它浏览器兼容性前缀 */
+  -webkit-animation: blink 2s linear infinite;
+  -moz-animation: blink 2s linear infinite;
+  -ms-animation: blink 2s linear infinite;
+  -o-animation: blink 2s linear infinite;
+}
+
+.blink3 {
+  color: #000000;
+  font-weight: bold;
+  animation: blink 3s linear infinite;
+  /* 其它浏览器兼容性前缀 */
+  -webkit-animation: blink 3s linear infinite;
+  -moz-animation: blink 3s linear infinite;
+  -ms-animation: blink 3s linear infinite;
+  -o-animation: blink 3s linear infinite;
+}
+
+.blink4 {
+  color: #000000;
+  font-weight: bold;
+  animation: blink 4s linear infinite;
+  /* 其它浏览器兼容性前缀 */
+  -webkit-animation: blink 4s linear infinite;
+  -moz-animation: blink 4s linear infinite;
+  -ms-animation: blink 4s linear infinite;
+  -o-animation: blink 4s linear infinite;
+}
+
+
+.box {
+  /*font-size: 20px;*/
+  color: #4cc134;
+  margin: 10px;
+  animation: changeshadow 1s ease-in infinite;
+  /* 其它浏览器兼容性前缀 */
+  -webkit-animation: changeshadow 1s linear infinite;
+  -moz-animation: changeshadow 1s linear infinite;
+  -ms-animation: changeshadow 1s linear infinite;
+  -o-animation: changeshadow 1s linear infinite;
+}
+
+@keyframes changeshadow {
+
+  0% {
+    text-shadow: 0 0 4px #4cc134
+  }
+
+  50% {
+    text-shadow: 0 0 40px #4cc134
+  }
+
+  100% {
+    text-shadow: 0 0 4px #4cc134
+  }
+}
+
+/* 添加兼容性前缀 */
+@-webkit-keyframes changeshadow {
+  0% {
+    text-shadow: 0 0 4px #4cc134
+  }
+
+  50% {
+    text-shadow: 0 0 40px #4cc134
+  }
+
+  100% {
+    text-shadow: 0 0 4px #4cc134
+  }
+}
+
+@-moz-keyframes changeshadow {
+  0% {
+    text-shadow: 0 0 4px #4cc134
+  }
+
+  50% {
+    text-shadow: 0 0 40px #4cc134
+  }
+
+  100% {
+    text-shadow: 0 0 4px #4cc134
+  }
+}
+
+@-ms-keyframes changeshadow {
+  0% {
+    text-shadow: 0 0 4px #4cc134
+  }
+
+  50% {
+    text-shadow: 0 0 40px #4cc134
+  }
+
+  100% {
+    text-shadow: 0 0 4px #4cc134
+  }
+}
+
+@-o-keyframes changeshadow {
+  0% {
+    text-shadow: 0 0 4px #4cc134
+  }
+
+  50% {
+    text-shadow: 0 0 40px #4cc134
+  }
+
+  100% {
+    text-shadow: 0 0 4px #4cc134
+  }
+}
+</style>
+
+<script language="javascript">
+  function show_date_time(){
+    window.setTimeout("show_date_time()", 1000);
+    BirthDay=new Date("10/01/2018 00:00:00");
+    today=new Date();
+    timeold=(today.getTime()-BirthDay.getTime());
+    sectimeold=timeold/1000
+    secondsold=Math.floor(sectimeold);
+    msPerDay=24*60*60*1000
+    e_daysold=timeold/msPerDay
+    daysold=Math.floor(e_daysold);
+    e_hrsold=(e_daysold-daysold)*24;
+    hrsold=setzero(Math.floor(e_hrsold));
+    e_minsold=(e_hrsold-hrsold)*60;
+    minsold=setzero(Math.floor((e_hrsold-hrsold)*60));
+    seconds=setzero(Math.floor((e_minsold-minsold)*60));
+  //document.getElementById('run_time').innerHTML="小站已运行"+daysold+"天"+hrsold+"小时"+minsold+"分"+seconds+"秒";
+  document.getElementById('run_days').innerHTML=daysold;
+}
+function setzero(i){
+  if (i<10){
+    i="0" + i
+  };
+  return i;
+}
+
+  //获取当天日期
+  function nowDate() {
+    var date = new Date();
+    var year = date.getFullYear();
+    var month = date.getMonth() + 1;
+    var day = date.getDate();
+    var hour = "00" + date.getHours();
+    hour = hour.substr(hour.length - 2);
+    var minute = "00" + date.getMinutes();
+    minute = minute.substr(minute.length - 2);
+    var second = "00" + date.getSeconds();
+    second = second.substr(second.length - 2);
+    var week = date.getDay();
+    switch (week) {
+      case 1: week = "星期一 "; break;
+      case 2: week = "星期二 "; break;
+      case 3: week = "星期三 "; break;
+      case 4: week = "星期四 "; break;
+      case 5: week = "星期五 "; break;
+      case 6: week = "星期六 "; break;
+      case 0: week = "星期日 "; break;
+      default: week = ""; break;
+    }
+    //document.getElementById("beijing_time").innerHTML = year + "年" + month + "月" + day + "日" + " " + hour + ":" + minute + ":" + second + " " + week;
+  }
+
+  setInterval("nowDate()", 1000);
+
+  show_date_time();
+</script>

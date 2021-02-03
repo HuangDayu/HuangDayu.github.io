@@ -1,0 +1,440 @@
+<script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+<div class="footer_data">
+  <div control="text" title="">
+    {% assign current = site.time | date: '%Y' %}
+    {% assign since = site.since | downcase %}
+    {% if site.since and since != current %} 
+    <span class="nowrap">
+     版权申明：
+      <span class="fa fa-copyright"></span>
+      {{ since }} - {% endif %} {{ current }}
+    </span>
+    <span class="nowrap">
+      <a href="/" rel="nofollow">huangdayu.cn</a>
+    </span>
+    <span class="nowrap">
+      &nbsp;(&nbsp;<a href="/more/about" rel="nofollow">{{ site.title }}</a>&nbsp;)&nbsp;
+    </span>
+    <span class="nowrap">
+      版权所有并保留一切权利
+    </span>
+  </div>
+  <div control="text" title="">
+    <span class="nowrap">
+      备案许可：
+      <a href="http://www.miitbeian.gov.cn" target="_blank">{{ site.icp_id }}</a>
+    </span>
+    <span class="nowrap">
+      文档许可：
+      <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/cn/" target="_blank">BY-NC-SA 3.0 CN</a>
+    </span>
+    <span class="nowrap">
+      代码许可：
+      <a href="http://www.apache.org/licenses/LICENSE-2.0" target="_blank">Apache License 2.0</a>
+    </span>
+  </div>
+<!--   <div control="text" title="">
+    <span class="nowrap">
+      托管服务：<a href="https://github.com/" target="_blank" rel="nofollow">GitHub</a><a href="https://pages.github.com/" target="_blank" rel="nofollow">Pages</a>
+    </span>
+    <span class="nowrap">
+      驱动生成：<a href="https://jekyllrb.com" target="_blank" rel="nofollow">Jekyll</a>
+    </span>
+    <span class="nowrap">
+      主题渲染：<a href="https://github.com/simpleyyt/jekyll-theme-next" target="_blank" rel="nofollow">NexT</a>
+    </span>
+    <span class="nowrap">
+      数据统计：
+      <span class="nowrap">
+        <a href="http://busuanzi.ibruce.info/" target="_blank" rel="nofollow">不蒜子</a>
+      </span>
+      &nbsp;
+      <span class="nowrap">
+        <a href="https://tongji.baidu.com/web/welcome/ico?s=026d74a388da05f421833bd0de4537a3" target="_blank" rel="nofollow">百度统计</a>
+      </span>
+      &nbsp;
+      <span class="nowrap">
+        <a href="http://new.cnzz.com/v1/login.php?siteid=1275893120" target="_blank" rel="nofollow">站长统计</a>
+      </span>
+    </span> 
+  </div> -->
+  <div control="text" title="">
+    <span class="nowrap" id="busuanzi_container_site_uv">
+      总访客数：<span id="busuanzi_value_site_uv"></span>人
+    </span>
+    <span class="nowrap" id="busuanzi_container_site_pv">
+      总访问量：<span id="busuanzi_value_site_pv"></span>次
+    </span>
+    <span class="nowrap">
+      博客年龄：<span id="run_time">0天0小时0分1秒</span>
+    </span>
+    <span class="nowrap">
+      北京时间：<span id="beijing_time">2018年10月01日 14:07:51 星期一</span>
+    </span>
+  </div>
+</div>
+
+<!-- <span  id="busuanzi_container_page_pv">本文阅读量<span id="busuanzi_value_page_pv" ></span>次</span> -->
+
+<style type="text/css">
+.nowrap {
+  white-space:nowrap;
+  margin-right: 5px;
+}
+
+.footer_data{
+  font-size: 16px;
+}
+
+.nowrap a {
+  overflow: hidden;
+  border: none;
+  /* underline 下划线 line-through 中划线 overline 上划线 none 没有划线 */
+  text-decoration: none;
+  /* move 十字架 pointer 手指 */
+  cursor: pointer;
+}
+
+/*a的伪类按lvha顺序，顺序不能互换，但可只写某一种状态*/
+/*访问之前的状态*/
+.nowrap a:link {
+  /*color: black;*/
+}
+/*访问之后的状态*/
+.nowrap a:visited {
+  /*color: green;*/
+}
+/*鼠标放上去的时候*/
+.nowrap a:hover {
+  background-color: #bbb;
+}
+/*鼠标长按的状态*/
+.nowrap a:active {
+  /*color: blue;*/
+}
+
+
+/*http://www.fly63.com/article/detial/616*/
+/* 定义keyframe动画，命名为blink */
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+/* 添加兼容性前缀 */
+@-webkit-keyframes blink {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+@-moz-keyframes blink {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+@-ms-keyframes blink {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+@-o-keyframes blink {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+/* 定义blink类*/
+.blink1 {
+  color: #000000;
+  font-weight: bold;
+  animation: blink 1s linear infinite;
+  /* 其它浏览器兼容性前缀 */
+  -webkit-animation: blink 1s linear infinite;
+  -moz-animation: blink 1s linear infinite;
+  -ms-animation: blink 1s linear infinite;
+  -o-animation: blink 1s linear infinite;
+}
+
+
+.blink2 {
+  color: #000000;
+  font-weight: bold;
+  animation: blink 2s linear infinite;
+  /* 其它浏览器兼容性前缀 */
+  -webkit-animation: blink 2s linear infinite;
+  -moz-animation: blink 2s linear infinite;
+  -ms-animation: blink 2s linear infinite;
+  -o-animation: blink 2s linear infinite;
+}
+
+.blink3 {
+  color: #000000;
+  font-weight: bold;
+  animation: blink 3s linear infinite;
+  /* 其它浏览器兼容性前缀 */
+  -webkit-animation: blink 3s linear infinite;
+  -moz-animation: blink 3s linear infinite;
+  -ms-animation: blink 3s linear infinite;
+  -o-animation: blink 3s linear infinite;
+}
+
+.blink4 {
+  color: #000000;
+  font-weight: bold;
+  animation: blink 4s linear infinite;
+  /* 其它浏览器兼容性前缀 */
+  -webkit-animation: blink 4s linear infinite;
+  -moz-animation: blink 4s linear infinite;
+  -ms-animation: blink 4s linear infinite;
+  -o-animation: blink 4s linear infinite;
+}
+
+
+.box {
+  /*font-size: 20px;*/
+  color: #4cc134;
+  margin: 10px;
+  animation: changeshadow 1s ease-in infinite;
+  /* 其它浏览器兼容性前缀 */
+  -webkit-animation: changeshadow 1s linear infinite;
+  -moz-animation: changeshadow 1s linear infinite;
+  -ms-animation: changeshadow 1s linear infinite;
+  -o-animation: changeshadow 1s linear infinite;
+}
+
+@keyframes changeshadow {
+
+  0% {
+    text-shadow: 0 0 4px #4cc134
+  }
+
+  50% {
+    text-shadow: 0 0 40px #4cc134
+  }
+
+  100% {
+    text-shadow: 0 0 4px #4cc134
+  }
+}
+
+/* 添加兼容性前缀 */
+@-webkit-keyframes changeshadow {
+  0% {
+    text-shadow: 0 0 4px #4cc134
+  }
+
+  50% {
+    text-shadow: 0 0 40px #4cc134
+  }
+
+  100% {
+    text-shadow: 0 0 4px #4cc134
+  }
+}
+
+@-moz-keyframes changeshadow {
+  0% {
+    text-shadow: 0 0 4px #4cc134
+  }
+
+  50% {
+    text-shadow: 0 0 40px #4cc134
+  }
+
+  100% {
+    text-shadow: 0 0 4px #4cc134
+  }
+}
+
+@-ms-keyframes changeshadow {
+  0% {
+    text-shadow: 0 0 4px #4cc134
+  }
+
+  50% {
+    text-shadow: 0 0 40px #4cc134
+  }
+
+  100% {
+    text-shadow: 0 0 4px #4cc134
+  }
+}
+
+@-o-keyframes changeshadow {
+  0% {
+    text-shadow: 0 0 4px #4cc134
+  }
+
+  50% {
+    text-shadow: 0 0 40px #4cc134
+  }
+
+  100% {
+    text-shadow: 0 0 4px #4cc134
+  }
+}
+</style>
+
+<script language="javascript">
+  function show_date_time(){
+    window.setTimeout("show_date_time()", 1000);
+    BirthDay=new Date("12/11/2012 12:56:57");
+    today=new Date();
+    timeold=(today.getTime()-BirthDay.getTime());
+    sectimeold=timeold/1000
+    secondsold=Math.floor(sectimeold);
+    msPerDay=24*60*60*1000
+    e_daysold=timeold/msPerDay
+    daysold=Math.floor(e_daysold);
+    years=Math.floor((daysold/365))
+    days=Math.floor((daysold%365))
+    e_hrsold=(e_daysold-daysold)*24;
+    hrsold=setzero(Math.floor(e_hrsold));
+    e_minsold=(e_hrsold-hrsold)*60;
+    minsold=setzero(Math.floor((e_hrsold-hrsold)*60));
+    seconds=setzero(Math.floor((e_minsold-minsold)*60));
+  	//document.getElementById('run_days').innerHTML=daysold;
+  	document.getElementById('run_time').innerHTML=years+"年"+days+"天"+hrsold+"小时"+minsold+"分"+seconds+"秒";
+  }
+
+  function setzero(i){
+    if (i<10){
+      i="0" + i
+    };
+    return i;
+  }
+
+  //获取当天日期
+  function nowDate() {
+    var date = new Date();
+    var year = date.getFullYear();
+    var month = date.getMonth() + 1;
+    var day = date.getDate();
+    var hour = "00" + date.getHours();
+    hour = hour.substr(hour.length - 2);
+    var minute = "00" + date.getMinutes();
+    minute = minute.substr(minute.length - 2);
+    var second = "00" + date.getSeconds();
+    second = second.substr(second.length - 2);
+    var week = date.getDay();
+    switch (week) {
+      case 1: week = "星期一 "; break;
+      case 2: week = "星期二 "; break;
+      case 3: week = "星期三 "; break;
+      case 4: week = "星期四 "; break;
+      case 5: week = "星期五 "; break;
+      case 6: week = "星期六 "; break;
+      case 0: week = "星期日 "; break;
+      default: week = ""; break;
+    }
+    document.getElementById("beijing_time").innerHTML = year + "年" + month + "月" + day + "日" + " " + hour + ":" + minute + ":" + second + " " + week;
+  }
+
+  setInterval("nowDate()", 1000);
+
+  show_date_time();
+</script>
+
+<style type="text/css">
+/* 最简单的实现禁止复制的方法，采用css方式禁止文字选择，当然这只兼容webkit内核浏览器 */
+* {
+  /* 禁止选中文字*/
+  -webkit-user-select: none;
+  moz-user-select: -moz-none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+</style>
+
+<script type = "text/javascript" >
+
+// https://www.cnblogs.com/momo798/p/6797670.html
+// 禁止右键菜单
+document.oncontextmenu = function() {
+    return false;
+};
+// 禁止文字选择
+document.onselectstart = function() {
+    return false;
+};
+// 禁止复制
+document.oncopy = function() {
+    return false;
+};
+// 禁止剪切
+document.oncut = function() {
+    return false;
+};
+// 禁止粘贴
+document.onpaste = function() {
+    return false;
+};
+
+// https://blog.csdn.net/qq_19898283/article/details/81142769
+// https://blog.csdn.net/baidu_23275675/article/details/83302425
+//禁用F12
+window.onkeydown = window.onkeyup = window.onkeypress = function(event) {
+    // 判断是否按下F12，F12键码为123
+    if (event.keyCode == 123) {
+        event.preventDefault(); // 阻止默认事件行为
+        window.event.returnValue = false;
+        // Ctrl+Shift+I
+    } else if ((event.ctrlKey) && (event.shiftKey) && (event.keyCode == 73)) {
+       event.preventDefault(); // 阻止默认事件行为
+        window.event.returnValue = false;
+        // F12
+    } else if ((event.shiftKey) && (event.keyCode == 123)) {
+        event.preventDefault(); // 阻止默认事件行为
+        window.event.returnValue = false;
+        // Ctrl+U
+    } else if ((event.ctrlKey) && (event.keyCode == 85)) {
+        event.preventDefault(); // 阻止默认事件行为
+        window.event.returnValue = false;
+        // Ctrl+S
+    } else if ((event.ctrlKey) && (event.keyCode == 83)) {
+        event.preventDefault(); // 阻止默认事件行为
+        window.event.returnValue = false;
+    }
+
+}
+
+var threshold = 160; // 打开控制台的宽或高阈值
+// 每秒检查一次
+var check = setInterval(function() {
+    if (window.outerWidth - window.innerWidth > threshold || window.outerHeight - window.innerHeight > threshold) {
+        // 如果打开控制台，则刷新页面
+        window.location.reload();
+    }
+},
+1000);
+
+</script>

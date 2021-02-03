@@ -1,0 +1,50 @@
+{% unless site.duoshuo_shortname
+  or site.disqus_shortname
+  or site.hypercomments_id
+  or site.gentie_productKey
+  or site.duoshuo and site.duoshuo.shortname %}
+
+{% if site.gitalk.enable %}
+
+<link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+<script src="https://cdn.bootcss.com/blueimp-md5/2.10.0/js/md5.js"></script>
+<script type="text/javascript">
+	//https://github.com/gitalk/gitalk/blob/master/readme-cn.md
+      var gitalk = new Gitalk({
+        clientID: '{{ site.gitalk.clientID }}',//必须. GitHub Application Client ID.
+        clientSecret: '{{ site.gitalk.clientSecret }}',//必须. GitHub Application Client Secret.
+        repo: '{{ site.gitalk.repo }}',//必须. GitHub repository.
+        owner: '{{ site.gitalk.owner }}',//必须. GitHub repository 所有者，可以是个人或者组织
+        admin: ['{{ site.gitalk.owner }}'],//必须. GitHub repository 的所有者和合作者 (对这个 repository 有写权限的用户)。
+        //id: '{{ page.url }}',//Default: location.href.页面的唯一标识。长度必须小于50。
+        //id: md5('{{ page.url }}'),
+        id: md5(window.location.pathname),
+        labels: ['gitalk','blog','huangdayu.cn'],//GitHub issue 的标签。
+        perPage: 50,//Default: 10.每次加载的数据大小，最多 100。
+        createIssueManually: false,//Default: false.如果当前页面没有相应的 isssue 且登录的用户属于 admin，则会自动创建 issue。如果设置为 true，则显示一个初始化页面，创建 issue 需要点击 init 按钮。
+        title: document.title,//Default: document.title.GitHub issue 的标题。
+        body: '['+document.title+']('+location.href+')',//Default: location.href + header.meta[description].GitHub issue 的内容。
+        pagerDirection: 'last',//Default: 'last'评论排序方式， last为按评论创建时间倒叙，first为按创建时间正序。
+        //proxy String
+        //Default: https://cors-anywhere.herokuapp.com/https://github.com/login/oauth/access_token.GitHub oauth 请求到反向代理，为了支持 CORS。 为什么要这样?
+        //flipMoveOptions Object
+        // Default:
+        // {
+        // 	staggerDelayBy: 150,
+        // 	appearAnimation: 'accordionVertical',
+        // 	enterAnimation: 'accordionVertical',
+        // 	leaveAnimation: 'accordionVertical',
+        // }
+        // 评论列表的动画。
+        // enableHotKey Boolean
+        // Default: true.
+        // 启用快捷键(cmd|ctrl + enter) 提交评论.
+        distractionFreeMode: true //类似Facebook评论框的全屏遮罩效果.
+      });
+      gitalk.render('gitalk-container');
+</script>
+
+{% endif %}
+
+{% endunless %}
