@@ -34,6 +34,12 @@ layout: page
 &emsp;&emsp;本博客全部内容禁止爬虫，禁止转载，禁止法律不允许的一切行为。    
 &emsp;&emsp;本博客遵守中华人民共和国法律，备案号[粤ICP备18019530号-2](http://www.miitbeian.gov.cn){:target="_blank"}。  
 
+
+# 版权声明
+
+&emsp;&emsp;本网站所有内容，包括文字、图片、图表、音视频资料等内容以及链接中所包含的所有内容，版权均属`huangdayu（大鱼叔叔）`所有；前述内容中包含的观点、逻辑和方法等智慧成果，均为`huangdayu（大鱼叔叔）`专有财产。任何媒体、网站等企业、组织或个人，未经本网协议授权不得转载、链接、转贴或以其他任何方式抄袭、复制、发布、或发表，违者本网将依法追究其全部法律责任。
+
+
 <div style="text-align: center;">
 	<iframe name="iFrame" width="100%" height="100%" src="https://www.huangdayu.cn/assets/private/htmls/huangdayu_gam.html" marginheight="0px" marginwidth="0px" frameborder="0px" border="0px" scrolling="no" alt="网络社交" align="middle">
 	</iframe>
