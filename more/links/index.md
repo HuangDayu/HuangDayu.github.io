@@ -34,12 +34,13 @@ layout: page
         <a href="http://www.gameboys.cn/" target="_blank">Java烂笔头</a>
         <a href="https://zhouze-java.github.io" target="_blank">八度空间</a>
         <a href="https://www.javatang.com/" target="_blank">爪哇堂</a>
-		<a href="http://www.bewindoweb.com/" target="_blank">三颗豆子</a>
-		<a href="https://colobu.com/" target="_blank">鸟窝</a>
-		<a href="http://www.pengzhihui.xyz/" target="_blank">彭稚晖</a>
-		<a href="https://www.liechi.org/cn/" target="_blank">张列弛</a>
-		<a href="https://yihui.org/cn/" target="_blank">谢益辉</a>
-		<a href="https://www.phodal.com/" target="_blank">黄峰达</a>
+		    <a href="http://www.bewindoweb.com/" target="_blank">三颗豆子</a>
+		    <a href="https://colobu.com/" target="_blank">鸟窝</a>
+		    <a href="http://www.pengzhihui.xyz/" target="_blank">彭稚晖</a>
+		    <a href="https://www.liechi.org/cn/" target="_blank">张列弛</a>
+		    <a href="https://yihui.org/cn/" target="_blank">谢益辉</a>
+		    <a href="https://www.phodal.com/" target="_blank">黄峰达</a>
+        <a href="https://yufree.cn/" target="_blank">于淼</a>
 	</div>
     <h5 align='center' >团队博客</h5>
     <div id="links">
@@ -49,7 +50,6 @@ layout: page
         <a href="https://blogs.360.cn/" target="_blank">360安全技术团队</a>
         <a href="https://insights.thoughtworks.cn/" target="_blank">ThoughtWorks洞见</a>
         <a href="https://xiaomi-info.github.io/" target="_blank">小米信息部技术团队</a>
-
     </div>
     <h5 align='center' >博客导航</h5>
     <div>
