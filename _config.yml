@@ -110,7 +110,7 @@ plugins:
 favicon: /assets/private/icons/huangdayu.png
 
 # Set default keywords (Use a comma to separate) Jekyll,NexT
-keywords: "黄大宇,大鱼叔叔,huangdayu"
+keywords: "黄大宇,大鱼叔叔,huangdayu,大鱼叔叔的博客,大鱼叔叔的个人博客,大鱼叔叔的自留地"
 
 # RSS按钮
 # Set rss to false to disable feed link.
