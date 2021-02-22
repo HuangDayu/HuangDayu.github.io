@@ -3,9 +3,7 @@ title: 友链
 layout: page
 ---
 
-<h3 style="text-align: center;">有朋自来，不亦说乎。</h3>
-
-
+<h3 style="text-align: center;">三人同行，必有吾师。</h3>
 
 <div id="links">
 	<h5 align='center' >独立博客</h5>
@@ -34,16 +32,22 @@ layout: page
         <a href="http://www.gameboys.cn/" target="_blank">Java烂笔头</a>
         <a href="https://zhouze-java.github.io" target="_blank">八度空间</a>
         <a href="https://www.javatang.com/" target="_blank">爪哇堂</a>
-		    <a href="http://www.bewindoweb.com/" target="_blank">三颗豆子</a>
-		    <a href="https://colobu.com/" target="_blank">鸟窝</a>
-		    <a href="http://www.pengzhihui.xyz/" target="_blank">彭稚晖</a>
-		    <a href="https://www.liechi.org/cn/" target="_blank">张列弛</a>
-		    <a href="https://yihui.org/cn/" target="_blank">谢益辉</a>
-		    <a href="https://www.phodal.com/" target="_blank">黄峰达</a>
+		<a href="http://www.bewindoweb.com/" target="_blank">三颗豆子</a>
+		<a href="https://colobu.com/" target="_blank">鸟窝</a>
+		<a href="http://www.pengzhihui.xyz/" target="_blank">彭稚晖</a>
+		<a href="https://www.liechi.org/cn/" target="_blank">张列弛</a>
+		<a href="https://yihui.org/cn/" target="_blank">谢益辉</a>
+		<a href="https://www.phodal.com/" target="_blank">黄峰达</a>
         <a href="https://yufree.cn/" target="_blank">于淼</a>
 	</div>
+	<h5 align='center' >实验室</h5>
+	<div>
+	    <a href="https://damo.alibaba.com/" target="_blank">阿里达摩院</a>
+	    <a href="http://research.baidu.com/" target="_blank">百度研究院</a>
+	    <a href="https://ai.tencent.com/" target="_blank">腾讯AI Lab</a>
+	</div>
     <h5 align='center' >团队博客</h5>
-    <div id="links">
+    <div>
         <a href="http://jm.taobao.org/" target="_blank">阿里中间件团队</a>
         <a href="https://tech.meituan.com/" target="_blank">美团技术团队</a>
         <a href="https://tech.youzan.com/" target="_blank">有赞技术团队</a>
