@@ -46,6 +46,13 @@ layout: page
 	    <a href="http://research.baidu.com/" target="_blank">百度研究院</a>
 	    <a href="https://ai.tencent.com/" target="_blank">腾讯AI Lab</a>
 	</div>
+	<h5 align='center' >科学学会</h5>
+	<div>
+	    <a href="https://www.scimall.org.cn/Org" target="_blank">全国学会</a>
+	    <a href="https://www.cast.org.cn/" target="_blank">中国科协</a>
+	    <a href="http://www.cnki.net/" target="_blank">中国知网</a>
+	    <a href="http://www.wanfangdata.com.cn/index.html" target="_blank">万方数据</a>
+	</div>
     <h5 align='center' >团队博客</h5>
     <div>
         <a href="http://jm.taobao.org/" target="_blank">阿里中间件团队</a>
