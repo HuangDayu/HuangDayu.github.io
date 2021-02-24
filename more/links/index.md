@@ -8,7 +8,7 @@ layout: page
 <div id="links">
 	<h5 align='center' >独立博客</h5>
 	<div>
-	    <a href="http://blog.sina.com.cn/louiskoo2008" target="_blank">古天乐</a>
+	    <a href="https://www.kootinlok.com/" target="_blank">古天乐</a>
         <a href="http://leijun.blog.techweb.com.cn/" target="_blank">雷军</a>
         <a href="http://mashibing.com/" target="_blank">马士兵</a>
         <a href="http://www.ruanyifeng.com/" target="_blank">阮一峰</a>
