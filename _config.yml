@@ -255,7 +255,7 @@ font:
     # 开源字体说明 https://fonts.google.com/?subset=chinese-simplified
     # Liu Jian Mao Cao , Lato,Zhi Mang Xing
     external: true
-    family: "KaiTi"
+    family: "Ma Shan Zheng"
     # size:
 
   # 标题字体 (h1, h2, h3, h4, h5, h6)
