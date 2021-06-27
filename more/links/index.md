@@ -11,6 +11,7 @@ layout: page
 	    <a href="https://www.kootinlok.com/" target="_blank">古天乐</a>
         <a href="http://leijun.blog.techweb.com.cn/" target="_blank">雷军</a>
         <a href="http://mashibing.com/" target="_blank">马士兵</a>
+        <a href="http://cleancoder.com/" target="_blank">Uncle Bob</a>
         <a href="https://martinfowler.com/" target="_blank">Martin Fowler</a>
         <a href="http://www.ruanyifeng.com/" target="_blank">阮一峰</a>
         <a href="https://www.liaoxuefeng.com/" target="_blank">廖雪峰</a>
